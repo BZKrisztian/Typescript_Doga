@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Ellipszoid térfogat-számítás</h1>
+
+        <div class="ElipBody">
+            <div class="input">
+                <label for="axis_A">A tengely</label>
+                <input type="text" id="axis_A" required>
+            </div>
+            <div class="input">
+                <label for="axis_B">B tengely</label>
+                <input type="text" id="axis_B" required>
+            </div>
+            <div class="input">
+                <label for="axis_C">C tengely</label>
+                <input type="text" id="axis_C" required>
+            </div>
+            <div>
+                <button id="calcButton" class="btn btn-primary">Számítás</button>
+            </div>
+            <div class="output">
+                <label for="result">Eredmény: </label>
+                <input class="form-control mx-auto forctrl" type="text" name="" id="result" readonly>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+body{
+    background-color: wheat;
+    text-align: center;
+}
+
+.forctrl{
+    width: 300px;
+    text-align: center;
+}
+
+.input{
+    margin: 10px;
+}
